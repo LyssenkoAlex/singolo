@@ -207,6 +207,7 @@
 .pic-position img {
     position: absolute;
     top: 2px;
+    left: 0;
 }
 
 .pic-head-position__head {
