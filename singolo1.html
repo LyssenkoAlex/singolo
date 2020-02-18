@@ -3,69 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="singolo1.css">
     <title>Singolo</title>
 </head>
 <body>
-<div class="page-wrap">
-    <header class="page-header">
-        <div class="page-header__wrap">
-            <nav class="main-nav">
-                <div class="logo">
-                    <span>SINGOLO*</span>
-                </div>
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a class="nav__link" href="#">
-                            home
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__link" href="#">
-                            services
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__link" href="#">
-                            portfolio
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__link" href="#">
-                            about
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__link" href="#">
-                            contact
-                        </a>
-                    </li>
-                </ul>
-
-            </nav>
-
+<div class="wrapper">
+    <header class="page-header uppercase">
+        <h1 class="page-header__logo logo">Singolo<span class="logo__star">*</span></h1>
+        <div class="page-header_navigation navigation">
+            <div class="navigation__button">Home</div>
+            <div class="navigation__button">Services</div>
+            <div class="navigation__button">Portfolio</div>
+            <div class="navigation__button">About</div>
+            <div class="navigation__button">Contact</div>
         </div>
-
     </header>
-    <main class="page-main">
-        <section class="slider">
-
-        </section>
-        <section class="tweets">
-            <h1 class="tweets__title">Our Service</h1>
-            <div class="tweets__tweet-current">
-
+    <div class="slider">
+        <div class="arrow-left arrow-interactive">
+            <img src="assets/images/png/arrow.png" alt="arrow">
+        </div>
+        <div class="arrow-right arrow-interactive">
+            <img src="assets/images/png/arrow.png" alt="arrow">
+        </div>
+        <img src="assets/images/phone/v_iPhone.png" alt="pic-1" class="slider__pic1">
+        <img src="assets/images/phone/h_iPhone.png" alt="pic-2" class="slider__pic2">
+    </div>
+    <div class="services">
+        <div class="services__header">Our Services</div>
+        <div class="services__description">
+            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis,
+            non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+        </div>
+        <div class="services__container container-3x2">
+            <div class="container-3 pic-position">
+                <img src="assets/images/svg/pencil.svg" alt="pic">
+                <div class="pic-head-position__head">Custom Design</div>
+                <div class="pic-head-discr__discr">Curabitur vestibulum eget mauris quis laoreet.
+                    Phasellus in quam laoreet, viverra lacus ut, ultrices velit.
+                </div>
             </div>
-            <div class="tweets__video">
-
+            <div class="container-3 pic-position">
+                <img src="assets/images/svg/lamp.svg" alt="pic">
+                <div class="pic-head-position__head">Inovative Ideas</div>
+                <div class="pic-head-discr__discr">
+                    Quisque luctus, quam eget molestie com- modo,
+                    lacus purus cursus purus, nec rutrum tellus dolor id lorem.
+                </div>
             </div>
-            <div class="tweets__tweet-posting">
-
+            <div class="container-3 pic-position">
+                <img src="assets/images/svg/love.svg" alt="pic">
+                <div class="pic-head-position__head">Love Is The Answer</div>
+                <div class="pic-head-discr__discr">
+                    Nulla sed nunc et tortor luctus faucibus.
+                    Morbi at aliquet turpis, et consequat felis. Quisque condimentum.
+                </div>
             </div>
-
-        </section>
-    </main>
+            <div class="container-3 pic-position">
+                <img src="assets/images/svg/phone.svg" alt="pic">
+                <div class="pic-head-position__head">Responsive Layout</div>
+                <div class="pic-head-discr__discr">
+                    Sed porttitor placerat rhoncus. In at nunc tellus.
+                    Maecenas blandit nunc ligula. Prae- sent elit leo.
+                </div>
+            </div>
+            <div class="container-3 pic-position">
+                <img src="assets/images/svg/think.svg" alt="pic">
+                <div class="pic-head-position__head">24 / 7 Support</div>
+                <div class="pic-head-discr__discr">Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi.
+                    Nulla a sem erat. Pellen- tesque egestas venenatis lorem .</div>
+            </div>
+            <div class="container-3 pic-position">
+                <img src="assets/images/svg/star.svg" alt="pic">
+                <div class="pic-head-position__head">Feel Like A Star</div>
+                <div class="pic-head-discr__discr">
+                    Quisque hendrerit purus dapibus, ornare nibh vitae,
+                    viverra nibh. Fusce vitae aliquam tellus.
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
