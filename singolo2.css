@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'fontello';
+    src: url('./assets/singolo_2/fonts/fontello.woff') format('woff'),
+    url('./assets/singolo_2/fonts/fontello.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url('./assets/singolo_2/fonts/Lato-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url('./assets/singolo_2/fonts/Lato-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url('./assets/singolo_2/fonts/Lato-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    max-width: 1020px;
+    margin: auto;
+    font-size: 13px;
+}
+
+.portfolio {
+    background-color: #2d303a;
+    height: 864px;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+.portfolio_header {
+    color: #767e9e;
+    padding-top: 60px;
+}
+
+.portfolio_header h2 {
+    padding-left: 41px;
+    font-size: 2.3em;
+}
+
+.portfolio_header p {
+    padding-top: 23px;
+    padding-left: 42px;
+    font-size: 1.34em;
+}
+
+
+.portfolio_categories {
+    padding-top: 15px;
+    padding-left: 29px;
+    font-weight: 400;
+}
+
+.portfolio_categories button {
+    margin-left: 6px;
+    padding: 3px 7px 3px 6px;
+    border: 1px solid #767e9e;
+    color: #767e9e;
+    border-radius: 5px;
+    background-color: #2d303a;
+    height: 22px;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.portfolio_categories button:first-child {
+    margin-left: 12px;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.portfolio_categories button:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+    transition-duration: 1s;
+}
+
+
+
+.portfolio_images {
+    padding: 18px 38px 0 38px;
+}
+
+.portfolio_img_container {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    justify-items: center;
+    grid-column-gap: 16px;
+    grid-row-gap: 21px;
+}
+
+.images {
+    height: 187px;
+    width: 220px;
+}
+.images:hover {
+    transition-duration: 1s;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.ship {
+    background-image: url('../singolo/assets/singolo_2/images/ship.png');
+}
+
+
+.green_face {
+    background-image: url('../singolo/assets/singolo_2/images/green_face.png');
+}
+
+.night {
+    background-image: url('../singolo/assets/singolo_2/images/night.png');
+}
+
+.robot {
+    background-image: url('../singolo/assets/singolo_2/images/robot.png');
+}
+
+.rabbits {
+    background-image: url('../singolo/assets/singolo_2/images/rabbits.png');
+}
+
+.sdk {
+    background-image: url('../singolo/assets/singolo_2/images/sdk.png');
+}
+
+.rocket {
+    background-image: url('../singolo/assets/singolo_2/images/rocket.png');
+}
+
+.birds {
+    background-image: url('../singolo/assets/singolo_2/images/birds.png');
+}
+
+.sleep {
+    background-image: url('../singolo/assets/singolo_2/images/sleep.png');
+}
+
+.letters {
+    background-image: url('../singolo/assets/singolo_2/images/letters.png');
+}
+
+.monster {
+    background-image: url('../singolo/assets/singolo_2/images/moster.png');
+}
+
+.sqr {
+    background-image: url('../singolo/assets/singolo_2/images/sqr.png');
+}
+
+
+
+.portfolio_end {
+    background-color: #323746;
+    height: 6px;
+}
+
+.aboutUs {
+}
