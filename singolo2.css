@@ -176,9 +176,6 @@ body {
     height: 6px;
 }
 
-.aboutUs {
-}
-
 .about {
     height: 728px;
     background-color: #f2f2f2;
@@ -186,16 +183,30 @@ body {
 }
 
 .about_title {
+    padding-top: 59px;
     font-size: 1.5em;
     color: #666d89;
 }
 
+
+.about_title h1 {
+    padding-left: 1px;
+}
+.about_title p {
+    padding-top: 19px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: justify;
+}
+
 .expert {
     display: grid;
-    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 18px;
     justify-items: center;
     color: #666d89;
+    padding-top: 45px;
 }
 
 .about_expert {
