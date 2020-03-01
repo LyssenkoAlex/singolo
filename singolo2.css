@@ -178,3 +178,116 @@ body {
 
 .aboutUs {
 }
+
+.about {
+    height: 728px;
+    background-color: #f2f2f2;
+    font-family: 'Lato', sans-serif;
+}
+
+.about_title {
+    font-size: 1.5em;
+    color: #666d89;
+}
+
+.expert {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-column-gap: 18px;
+    justify-items: center;
+    color: #666d89;
+}
+
+.about_expert {
+    width: 300px;
+    height: 300px;
+}
+
+.expert_photo {
+}
+
+.man_img {
+    height: 300px;
+    width: 300px;
+    background-image: url('./assets/singolo_2/images/man.png')
+}
+
+.expert_info {
+    padding-top: 17px;
+    font-size: 15px;
+}
+
+.expert_info p {
+    font-family: 'Lato', sans-serif;
+    padding-top: 8px;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.expert_title h2 {
+    padding-left: 1px;
+}
+
+.expert_title p {
+    padding-top: 19px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+.expert_title {
+    padding-top: 59px;
+}
+
+
+.expert_desc {
+}
+.expert_links {
+    padding-top: 25px;
+}
+.expert_links span {
+    float: left;
+    display: inline-block;
+    font-family: "fontello", sans-serif;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 8px 0 0;
+    border: 1px solid #6a718c;
+    border-radius: 50%;
+    color: #6a718c;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.expert_links span:hover {
+    border: 1px solid #f06c64;
+    color: #f06c64;
+}
+
+
+.link-facebook {
+    content: '\e800';
+}
+
+.link-gplus {
+    content: '\e801';
+}
+
+.link-twitter {
+    content: '\e802';
+}
+
+.link-linkedin {
+    content: '\e803';
+}
+
+.about_container {
+    padding: 0 40px 0 40px;
+}
+
