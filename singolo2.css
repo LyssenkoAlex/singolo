@@ -212,6 +212,18 @@ body {
     background-image: url('./assets/singolo_2/images/man.png')
 }
 
+.women_1_img {
+    height: 300px;
+    width: 300px;
+    background-image: url('./assets/singolo_2/images/women.png')
+}
+
+.women_2_img {
+    height: 300px;
+    width: 300px;
+    background-image: url('./assets/singolo_2/images/women_2.png')
+}
+
 .expert_info {
     padding-top: 17px;
     font-size: 15px;
@@ -271,19 +283,19 @@ body {
 }
 
 
-.link-facebook {
+.link-facebook:before {
     content: '\e800';
 }
 
-.link-gplus {
+.link-gplus:before {
     content: '\e801';
 }
 
-.link-twitter {
+.link-twitter:before {
     content: '\e802';
 }
 
-.link-linkedin {
+.link-linkedin:before {
     content: '\e803';
 }
 
@@ -291,3 +303,7 @@ body {
     padding: 0 40px 0 40px;
 }
 
+.about_bottom {
+    height: 6px;
+    background-color: #ffffff;
+}
