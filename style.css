@@ -274,12 +274,6 @@
     font-style: normal;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
 body {
     max-width: 1020px;
     margin: auto;
@@ -506,32 +500,12 @@ body {
     text-align: justify;
 }
 
-
 .expert_title {
     padding-top: 59px;
 }
 
-
-.expert_desc {
-}
 .expert_links {
     padding-top: 25px;
-}
-.expert_links span {
-    float: left;
-    display: inline-block;
-    font-family: "fontello", sans-serif;
-    text-align: center;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    margin: 0 8px 0 0;
-    border: 1px solid #6a718c;
-    border-radius: 50%;
-    color: #6a718c;
-    background: transparent;
-    cursor: pointer;
-    font-size: 16px;
 }
 
 .expert_links span:hover {
