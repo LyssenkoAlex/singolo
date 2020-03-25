@@ -16,3 +16,6 @@ https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2
 # deploy
 https://lyssenkoalex.github.io/singolo/singolo3.html
 
+#task#
+https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/singolo/singolo-DOM-ru.md
+

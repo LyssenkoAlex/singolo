@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'fontello';
-    src: url('./assets/singolo_2/fonts/fontello.woff') format('woff'),
-    url('./assets/singolo_2/fonts/fontello.ttf') format('truetype');
+    src: url('../assets/singolo_2/fonts/fontello.woff') format('woff'),
+    url('../assets/singolo_2/fonts/fontello.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-variant: normal;
@@ -9,21 +9,21 @@
 
 @font-face {
     font-family: 'lato';
-    src: url('./assets/singolo_2/fonts/Lato-Black.ttf') format('truetype');
+    src: url('../assets/singolo_2/fonts/Lato-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'lato';
-    src: url('./assets/singolo_2/fonts/Lato-Light.ttf') format('truetype');
+    src: url('../assets/singolo_2/fonts/Lato-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'lato';
-    src: url('./assets/singolo_2/fonts/Lato-Regular.ttf') format('truetype');
+    src: url('../assets/singolo_2/fonts/Lato-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
@@ -121,52 +121,52 @@ body {
 }
 
 .ship {
-    background-image: url('../singolo/assets/singolo_2/images/ship.png');
+    background-image: url('../assets/singolo_2/images/ship.png');
 }
 
 
 .green_face {
-    background-image: url('../singolo/assets/singolo_2/images/green_face.png');
+    background-image: url('../assets/singolo_2/images/green_face.png');
 }
 
 .night {
-    background-image: url('../singolo/assets/singolo_2/images/night.png');
+    background-image: url('../assets/singolo_2/images/night.png');
 }
 
 .robot {
-    background-image: url('../singolo/assets/singolo_2/images/robot.png');
+    background-image: url('../assets/singolo_2/images/robot.png');
 }
 
 .rabbits {
-    background-image: url('../singolo/assets/singolo_2/images/rabbits.png');
+    background-image: url('../assets/singolo_2/images/rabbits.png');
 }
 
 .sdk {
-    background-image: url('../singolo/assets/singolo_2/images/sdk.png');
+    background-image: url('../assets/singolo_2/images/sdk.png');
 }
 
 .rocket {
-    background-image: url('../singolo/assets/singolo_2/images/rocket.png');
+    background-image: url('../assets/singolo_2/images/rocket.png');
 }
 
 .birds {
-    background-image: url('../singolo/assets/singolo_2/images/birds.png');
+    background-image: url('../assets/singolo_2/images/birds.png');
 }
 
 .sleep {
-    background-image: url('../singolo/assets/singolo_2/images/sleep.png');
+    background-image: url('../assets/singolo_2/images/sleep.png');
 }
 
 .letters {
-    background-image: url('../singolo/assets/singolo_2/images/letters.png');
+    background-image: url('../assets/singolo_2/images/letters.png');
 }
 
 .monster {
-    background-image: url('../singolo/assets/singolo_2/images/moster.png');
+    background-image: url('../assets/singolo_2/images/moster.png');
 }
 
 .sqr {
-    background-image: url('../singolo/assets/singolo_2/images/sqr.png');
+    background-image: url('../assets/singolo_2/images/sqr.png');
 }
 
 
@@ -220,19 +220,19 @@ body {
 .man_img {
     height: 300px;
     width: 300px;
-    background-image: url('./assets/singolo_2/images/man.png')
+    background-image: url('../assets/singolo_2/images/man.png')
 }
 
 .women_1_img {
     height: 300px;
     width: 300px;
-    background-image: url('./assets/singolo_2/images/women.png')
+    background-image: url('../assets/singolo_2/images/women.png')
 }
 
 .women_2_img {
     height: 300px;
     width: 300px;
-    background-image: url('./assets/singolo_2/images/women_2.png')
+    background-image: url('../assets/singolo_2/images/women_2.png')
 }
 
 .expert_info {
