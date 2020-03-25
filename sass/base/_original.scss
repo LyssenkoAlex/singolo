@@ -32,85 +32,50 @@
   box-sizing: border-box;
 }
 
-.uppercase {
-  text-transform: uppercase;
-}
 
-.wrapper {
-  width: 1020px;
-  position: relative;
-}
 
-.page-header {
-  height: 95px;
-  padding-right: 40px;
-  width: 100%;
-  display: flex;
-  padding-left: 40px;
-  border-bottom: 6px solid #323746;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #2d303a;
-}
 
-//.logo {
-//  letter-spacing: -1px;
-//  font-size: 25.5px;
-//  line-height: 6px;
-//  color: #ffffff;
-//  font-weight: 700;
-//  margin: 0;
+
+
+
+
+
+
+//.navigation__button {
+//  position: relative;
+//  font-size: 12px;
+//  color: white;
 //  font-family: "Lato", sans-serif;
+//  font-weight: 700;
 //  text-align: left;
 //}
 
+//.navigation__button::after {
+//  content: ".";
+//  position: absolute;
+//  right: -17px;
+//  top: -2px;
+//  color: #494e62;
+//}
 
 
+//.navigation__button:nth-child(1) {
+//  color: #f06c64;
+//}
 
-.navigation {
-  display: flex;
-  height: 100%;
-  width: 371px;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 7px;
-}
+//.navigation__button:hover {
+//  cursor: pointer;
+//  color: #6ed0fa;
+//  -webkit-transition: color 300ms ease-in-out;
+//  transition: color 300ms ease-in-out;
+//}
 
-.navigation__button {
-  position: relative;
-  font-size: 12px;
-  color: white;
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  text-align: left;
-}
-
-.navigation__button::after {
-  content: ".";
-  position: absolute;
-  right: -17px;
-  top: -2px;
-  color: #494e62;
-}
-
-
-.navigation__button:nth-child(1) {
-  color: #f06c64;
-}
-
-.navigation__button:hover {
-  cursor: pointer;
-  color: #6ed0fa;
-  -webkit-transition: color 300ms ease-in-out;
-  transition: color 300ms ease-in-out;
-}
-
-.slider {
-  position: relative;
-  height: 600px;
-  border-bottom: 6px solid #ea676b;
-  background-color: #f06c64;
-}
+//.slider {
+//  position: relative;
+//  height: 600px;
+//  border-bottom: 6px solid #ea676b;
+//  background-color: #f06c64;
+//}
 
 .slider__v_phone {
   position: relative;

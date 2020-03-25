@@ -1,0 +1,30 @@
+
+.navigation {
+  display: flex;
+  width: 371px;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 7px;
+}
+
+.navigation__link {
+list-style: none;
+  padding: 0 10px;
+  text-transform: uppercase;
+  color: $color_white;
+  @extend %transition;
+  &:after {
+    content: ".";
+    position: absolute;
+    right: -17px;
+    top: -2px;
+    color: #494e62;
+  }
+  &:nth-child(1) {
+    color: #f06c64;
+  }
+  &:hover {
+    color:$color-primary;
+    cursor: pointer;
+  }
+}

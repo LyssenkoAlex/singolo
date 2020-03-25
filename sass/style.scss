@@ -1,7 +1,12 @@
 @import "base/normalize";
 @import "abstract/placeholders";
 @import "abstract/mixins";
+@import "abstract/constants";
 @import "base/base";
 @import "components/header";
+@import "components/navigation";
+@import "components/slider";
 @import "base/original";
+@import "layout/wrapper";
+@import "layouts/header";
 
