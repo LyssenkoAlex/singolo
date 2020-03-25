@@ -1,25 +1,25 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Lato";
-  src: url("assets/singolo_1/fonts/Lato/Lato-Regular.ttf") format("truetype");
+  src: url("../assets/singolo_1/fonts/Lato/Lato-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
   font-family: "Lato";
-  src: url("assets/singolo_1/fonts/Lato/Lato-Bold.ttf") format("truetype");
+  src: url("../assets/singolo_1/fonts/Lato/Lato-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: 700;
 }
 @font-face {
   font-family: "Lato";
-  src: url("assets/singolo_1/fonts/Lato/Lato-Black.ttf") format("truetype");
+  src: url("../assets/singolo_1/fonts/Lato/Lato-Black.ttf") format("truetype");
   font-style: normal;
   font-weight: 900;
 }
 @font-face {
   font-family: "Lato";
-  src: url("assets/singolo_1/fonts/Lato/Lato-Light.ttf") format("truetype");
+  src: url("../assets/singolo_1/fonts/Lato/Lato-Light.ttf") format("truetype");
   font-style: normal;
   font-weight: 300;
 }
@@ -241,26 +241,26 @@
 
 @font-face {
   font-family: "fontello";
-  src: url("./assets/singolo_2/fonts/fontello.woff") format("woff"), url("./assets/singolo_2/fonts/fontello.ttf") format("truetype");
+  src: url("../assets/singolo_2/fonts/fontello.woff") format("woff"), url("../assets/singolo_2/fonts/fontello.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-variant: normal;
 }
 @font-face {
   font-family: "lato";
-  src: url("./assets/singolo_2/fonts/Lato-Black.ttf") format("truetype");
+  src: url("../assets/singolo_2/fonts/Lato-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: "lato";
-  src: url("./assets/singolo_2/fonts/Lato-Light.ttf") format("truetype");
+  src: url("../assets/singolo_2/fonts/Lato-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "lato";
-  src: url("./assets/singolo_2/fonts/Lato-Regular.ttf") format("truetype");
+  src: url("../assets/singolo_2/fonts/Lato-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
