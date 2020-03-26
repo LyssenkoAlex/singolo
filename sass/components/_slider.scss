@@ -21,6 +21,10 @@
   &:hover {
     cursor: pointer;
   }
+  img {
+    transform: rotate(180deg);
+    transform-origin: center;
+  }
 }
 
 .slider__v_phone {

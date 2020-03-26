@@ -3,3 +3,32 @@
   background-color: #f2f2f2;
   font-family: 'Lato', sans-serif;
 }
+
+.about_container {
+  padding: 0 40px 0 40px;
+}
+
+
+.about_title {
+  padding-top: 59px;
+  font-size: 1.5em;
+  color: #666d89;
+  h1 {
+    padding-left: 1px;
+  }
+
+  p {
+    @extend %font-prim-normal;
+    @include font($height: 3rem, $size: 1.8rem, $weight:300);
+    padding-top: 19px;
+    text-align: justify;
+  }
+
+
+}
+
+
+.about_bottom {
+  height: 6px;
+  background-color: #ffffff;
+}
