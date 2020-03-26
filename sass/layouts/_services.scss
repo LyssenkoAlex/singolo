@@ -1,0 +1,45 @@
+.container-3x2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container-3 {
+  position: relative;
+  flex-basis: 33%;
+  height: 90px;
+  flex-shrink: 0;
+  padding-left: 80px;
+  margin-right: -10px;
+  margin-bottom: 33px;
+}
+
+.pic-position {
+  overflow: hidden;
+}
+.pic-head-position__head {
+  @extend %font-prim-normal;
+  @include font($height: 1.8rem, $size: 1.8rem, $weight:900);
+  color: #666d89;
+  text-align: left;
+  letter-spacing: -0.05px;
+}
+
+.pic-position img {
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+.pic-head-discr__discr {
+  @extend %font-prim-normal;
+  @include font($height: 2.2rem, $size: 1.2rem, $weight:400);
+  line-height: 22px;
+  color: #767e9e;
+  text-align: justify;
+  padding-top: 10px;
+  padding-right: 10px;
+  letter-spacing: -0.2px;
+  overflow: hidden;
+}
+

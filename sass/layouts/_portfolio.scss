@@ -1,0 +1,7 @@
+.portfolio_img_container {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  justify-items: center;
+  grid-column-gap: 16px;
+  grid-row-gap: 21px;
+}

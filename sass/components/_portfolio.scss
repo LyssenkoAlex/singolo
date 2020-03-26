@@ -1,0 +1,120 @@
+.portfolio {
+  background-color: #2d303a;
+}
+
+.portfolio_header {
+  color: #767e9e;
+  padding-top: 60px;
+  h2 {
+    padding-left: 41px;
+    font-size: 2.3em;
+  }
+
+  p {
+    padding-top: 23px;
+    padding-left: 42px;
+    font-size: 1.34em;
+  }
+}
+
+.portfolio_categories {
+  padding-top: 15px;
+  padding-left: 29px;
+  font-weight: 400;
+  button {
+    @extend %font-prim-normal;
+    @include font($height: 2.2rem, $size: 1.2rem, $weight:400);
+    margin-left: 6px;
+    padding: 3px 7px 3px 6px;
+    border: 1px solid #767e9e;
+    color: #767e9e;
+    border-radius: 5px;
+    background-color: #2d303a;
+    cursor: pointer;
+    &:hover {
+      color: #ffffff;
+      border-color: #ffffff;
+      @extend %transition;
+    }
+    &:first-child {
+      margin-left: 12px;
+      color: #ffffff;
+      border-color: #ffffff;
+    }
+  }
+}
+
+
+.portfolio_images {
+  padding: 18px 38px 0 38px;
+}
+
+.images {
+  height: 187px;
+  width: 220px;
+}
+.images:hover {
+  transition-duration: 1s;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.ship {
+  background-image: url('../assets/singolo_2/images/ship.png');
+}
+
+
+.green_face {
+  background-image: url('../assets/singolo_2/images/green_face.png');
+}
+
+.night {
+  background-image: url('../assets/singolo_2/images/night.png');
+}
+
+.robot {
+  background-image: url('../assets/singolo_2/images/robot.png');
+}
+
+.rabbits {
+  background-image: url('../assets/singolo_2/images/rabbits.png');
+}
+
+.sdk {
+  background-image: url('../assets/singolo_2/images/sdk.png');
+}
+
+.rocket {
+  background-image: url('../assets/singolo_2/images/rocket.png');
+}
+
+.birds {
+  background-image: url('../assets/singolo_2/images/birds.png');
+}
+
+.sleep {
+  background-image: url('../assets/singolo_2/images/sleep.png');
+}
+
+.letters {
+  background-image: url('../assets/singolo_2/images/letters.png');
+}
+
+.monster {
+  background-image: url('../assets/singolo_2/images/moster.png');
+}
+
+.sqr {
+  background-image: url('../assets/singolo_2/images/sqr.png');
+}
+
+.portfolio_end {
+  background-color: #323746;
+  height: 6px;
+}
+
+
+
+
+
+
