@@ -1,14 +1,15 @@
 .slider {
-  position: relative;
   border-bottom: 6px solid $color_slider_bottom;
   background-color: $color_slider_color;
+  padding-bottom: 110px;
 }
 
 
 .arrow-left {
   position: absolute;
-  top: 281px;
+  top: 378px;
   left: 42px;
+
   &:hover {
     cursor: pointer;
   }
@@ -16,11 +17,13 @@
 
 .arrow-right {
   position: absolute;
-  top: 281px;
-  right: 40px;
+  top: 378px;
+  right: 534px;
+
   &:hover {
     cursor: pointer;
   }
+
   img {
     transform: rotate(180deg);
     transform-origin: center;
@@ -29,13 +32,13 @@
 
 .slider__v_phone {
   position: relative;
-  left: 110px;
-  top: 52px;
+  left: 111px;
+  top: 55px;
 }
 
 .slider__h_phone {
   position: relative;
-  left: 180px;
-  top: -70px;
+  left: 183px;
+  top: -65px;
 }
 

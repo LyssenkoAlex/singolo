@@ -4,26 +4,30 @@
   width: 371px;
   align-items: center;
   justify-content: space-between;
-  padding-top: 7px;
+  padding-top: 15px;
+  padding-left: 1px;
 }
 
 .navigation__link {
   list-style: none;
   padding: 0 10px;
   text-transform: uppercase;
+  position: relative;
   color: $color_white;
   @extend %transition;
 
-  &:after {
-    content: ".";
+  &:before {
+    content: "·";
     position: absolute;
-    right: -17px;
-    top: -2px;
-    color: #494e62;
+    top: 0;
+    left: -0.35em;
+    color: white;
+    border-radius: 50%;
   }
 
   &:nth-child(1) {
     color: #f06c64;
+    content: "";
   }
 
   &:hover {

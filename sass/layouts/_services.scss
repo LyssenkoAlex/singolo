@@ -7,16 +7,12 @@
 .container-3 {
   position: relative;
   flex-basis: 33%;
-  height: 90px;
   flex-shrink: 0;
   padding-left: 80px;
   margin-right: -10px;
   margin-bottom: 33px;
 }
 
-.pic-position {
-  overflow: hidden;
-}
 .pic-head-position__head {
   @extend %font-prim-normal;
   @include font($height: 1.8rem, $size: 1.8rem, $weight:900);

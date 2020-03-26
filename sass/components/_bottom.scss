@@ -7,35 +7,11 @@
   text-align: left;
 }
 
-.expert_links {
-  display: flex;
-  flex-flow: row nowrap;
-  height: 100%;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding-top: 22px;
-  &:hover {
-    border: 1px solid #f06c64;
-    color: #f06c64;
-  }
+
+.bottom_expert_links {
+  padding-top: 21px;
 }
 
-.expert_links span {
-  float: left;
-  display: inline-block;
-  font-family: "fontello", sans-serif;
-  text-align: center;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  margin: 0 8px 0 0;
-  border: 1px solid #6a718c;
-  border-radius: 50%;
-  color: #6a718c;
-  background: transparent;
-  cursor: pointer;
-  font-size: 16px;
-}
 
 .icon {
   margin-right: 6px;
