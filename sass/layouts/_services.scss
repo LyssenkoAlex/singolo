@@ -11,6 +11,13 @@
   padding-left: 80px;
   margin-right: -10px;
   margin-bottom: 33px;
+  @include media-tablet {
+    flex-basis: 45%;
+  }
+  @include media-mobilesmall {
+    flex-basis: 52%;
+  }
+
 }
 
 .pic-head-position__head {

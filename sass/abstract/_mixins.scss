@@ -5,3 +5,15 @@
   line-height: $height;
 }
 
+@mixin media-desktop {
+  @media (max-width: $content_width) { @content }
+}
+
+@mixin media-tablet {
+  @media (max-width: $tablet-width) { @content }
+}
+
+@mixin media-mobilesmall {
+  @media (max-width: $mobile-small-width) { @content }
+}
+

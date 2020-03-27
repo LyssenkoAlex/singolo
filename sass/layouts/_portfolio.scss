@@ -4,4 +4,10 @@
   justify-items: center;
   grid-column-gap: 16px;
   grid-row-gap: 21px;
+  @include media-tablet {
+    grid-template-columns: repeat(3, 2fr);
+  }
+  @include media-mobilesmall {
+    grid-template-columns: repeat(2, 2fr);
+  }
 }

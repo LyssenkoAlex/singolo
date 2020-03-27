@@ -536,7 +536,7 @@ h1 {
 .arrow-left {
   position: absolute;
   top: 378px;
-  left: 42px;
+  left: 263px;
 }
 .arrow-left:hover {
   cursor: pointer;
@@ -545,7 +545,7 @@ h1 {
 .arrow-right {
   position: absolute;
   top: 378px;
-  right: 534px;
+  right: 271px;
 }
 .arrow-right:hover {
   cursor: pointer;
@@ -984,7 +984,8 @@ h1 {
 }
 
 .wrapper {
-  width: 1020px;
+  max-width: 1020px;
+  margin: auto;
 }
 
 .page-header {
@@ -1007,6 +1008,16 @@ h1 {
   padding-left: 80px;
   margin-right: -10px;
   margin-bottom: 33px;
+}
+@media (max-width: 768px) {
+  .container-3 {
+    flex-basis: 45%;
+  }
+}
+@media (max-width: 375px) {
+  .container-3 {
+    flex-basis: 52%;
+  }
 }
 
 .pic-head-position__head {
@@ -1046,6 +1057,16 @@ h1 {
   grid-column-gap: 16px;
   grid-row-gap: 21px;
 }
+@media (max-width: 768px) {
+  .portfolio_img_container {
+    grid-template-columns: repeat(3, 2fr);
+  }
+}
+@media (max-width: 375px) {
+  .portfolio_img_container {
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
 
 .expert {
   display: grid;
@@ -1054,6 +1075,11 @@ h1 {
   justify-items: center;
   color: #666d89;
   padding-top: 26px;
+}
+@media (max-width: 375px) {
+  .expert {
+    grid-template-columns: 1fr;
+  }
 }
 
 .form_details {
