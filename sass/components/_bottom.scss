@@ -5,6 +5,9 @@
   padding-top: 36px;
   color: #666d89;
   text-align: left;
+  @include media-mobilesmall {
+    display: none;
+  }
 }
 
 

@@ -533,6 +533,11 @@ h1 {
   padding-top: 15px;
   padding-left: 1px;
 }
+@media (max-width: 375px) {
+  .navigation {
+    display: none;
+  }
+}
 
 .navigation__link {
   list-style: none;
@@ -1011,6 +1016,11 @@ input, textarea {
   color: #666d89;
   text-align: left;
 }
+@media (max-width: 375px) {
+  .copyright {
+    display: none;
+  }
+}
 
 .expert_photo img {
   width: 300px;
@@ -1173,6 +1183,13 @@ input, textarea {
   padding-left: 1px;
   padding-right: 52px;
   padding-top: 22px;
+}
+@media (max-width: 375px) {
+  .bottom_icons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

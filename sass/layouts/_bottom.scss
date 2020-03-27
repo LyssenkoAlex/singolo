@@ -10,4 +10,9 @@
   padding-left: 1px;
   padding-right: 52px;
   padding-top: 22px;
+  @include media-mobilesmall {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
 }
