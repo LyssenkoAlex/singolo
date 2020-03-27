@@ -447,33 +447,6 @@ h1 {
   line-height: 3rem;
 }
 
-.expert_links {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-.expert_links:hover {
-  border: 1px solid #f06c64;
-  color: #f06c64;
-}
-
-.expert_links span {
-  float: left;
-  display: inline-block;
-  font-family: "fontello", sans-serif;
-  text-align: center;
-  width: 30px;
-  line-height: 30px;
-  margin: 0 8px 0 0;
-  border: 1px solid #6a718c;
-  border-radius: 50%;
-  color: #6a718c;
-  background: transparent;
-  cursor: pointer;
-  font-size: 16px;
-}
-
 .page-header {
   border-bottom: 6px solid #323746;
   background-color: #2d303a;
@@ -929,28 +902,48 @@ h1 {
   text-align: left;
 }
 
-.bottom_expert_links {
-  padding-top: 21px;
+.social-icons {
+  margin-top: 24px;
+  padding-left: 1px;
 }
 
-.icon {
-  margin-right: 6px;
+.social-icons .icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid #666d89;
+  border-radius: 50%;
 }
 
-.link-gplus:before {
-  content: "";
+.social-icons .icon:not(:first-child) {
+  margin-left: 4px;
 }
 
-.link-twitter:before {
-  content: "";
+.social-icons .icon:hover,
+.contact-form__info .phone:hover,
+.contact-form__info .email:hover {
+  opacity: 0.6;
 }
 
-.link-linkedin:before {
-  content: "";
+.icon.icon_facebook {
+  background-image: url("../assets/icons/icon_facebook.svg");
 }
 
-.link-facebook:before {
-  content: "";
+.icon.icon_google-plus {
+  background-image: url("../assets/icons/icon_google-plus.svg");
+  background-position-x: 7px;
+}
+
+.icon.icon_twitter {
+  background-image: url("../assets/icons/icon_twitter.svg");
+  background-position-x: 7px;
+}
+
+.icon.icon_linkedin {
+  background-image: url("../assets/icons/icon_linkedin.svg");
+  background-position-y: 7px;
 }
 
 .about_expert {
@@ -1000,22 +993,6 @@ h1 {
   font-weight: 300;
   line-height: 30px;
   text-align: justify;
-}
-
-.link-facebook:before {
-  content: "";
-}
-
-.link-gplus:before {
-  content: "";
-}
-
-.link-twitter:before {
-  content: "";
-}
-
-.link-linkedin:before {
-  content: "";
 }
 
 .wrapper {

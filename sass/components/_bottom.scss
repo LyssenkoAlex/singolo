@@ -8,27 +8,48 @@
 }
 
 
-.bottom_expert_links {
-  padding-top: 21px;
+.social-icons {
+  margin-top: 24px;
+  padding-left: 1px;
 }
 
+.social-icons .icon {
+  display: inline-block;
 
-.icon {
-  margin-right: 6px;
+  width: 30px;
+  height: 30px;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid #666d89;
+  border-radius: 50%;
 }
 
-.link-gplus:before {
-  content: '\e801';
+.social-icons .icon:not(:first-child) {
+  margin-left: 4px;
 }
 
-.link-twitter:before {
-  content: '\e802';
+.social-icons .icon:hover,
+.contact-form__info .phone:hover,
+.contact-form__info .email:hover {
+  opacity: 0.6;
 }
 
-.link-linkedin:before {
-  content: '\e803';
+.icon.icon_facebook {
+  background-image: url("../assets/icons/icon_facebook.svg");
 }
 
-.link-facebook:before {
-  content: '\e800';
+.icon.icon_google-plus {
+  background-image: url("../assets/icons/icon_google-plus.svg");
+  background-position-x: 7px;
+}
+
+.icon.icon_twitter {
+  background-image: url("../assets/icons/icon_twitter.svg");
+  background-position-x: 7px;
+}
+
+.icon.icon_linkedin {
+  background-image: url("../assets/icons/icon_linkedin.svg");
+  background-position-y: 7px;
 }
