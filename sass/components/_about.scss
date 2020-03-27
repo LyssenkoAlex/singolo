@@ -4,7 +4,7 @@
 }
 
 .about_container {
-  padding: 0 40px 210px 40px;
+  padding: 0 40px 59px 40px;
 }
 
 
@@ -17,12 +17,11 @@
   }
 
   p {
-    @extend %font-prim-normal;
+    @extend %font-prim-regular;
     @include font($height: 3rem, $size: 1.8rem, $weight:300);
     padding-top: 4px;
     text-align: justify;
   }
-
 
 }
 

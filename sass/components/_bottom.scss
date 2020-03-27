@@ -1,5 +1,5 @@
 .copyright {
-  @extend %font-prim-normal;
+  @extend %font-prim-regular;
   @include font($height: 0.6rem, $size: 1.2rem, $weight: 400);
   padding-left: 40px;
   padding-top: 36px;

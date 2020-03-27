@@ -419,17 +419,43 @@ ul {
 }
 
 @font-face {
-  font-family: "Lato";
-  src: url("../assets/font/Lato-Regular.ttf") format("truetype");
+  font-family: "Lato-Light";
+  src: url("../assets/fonts/Lato-Light.eot");
+  src: local("Lato Light"), local("Lato-Light"), url("../assets/fonts/Lato-Light.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Lato-Light.woff") format("woff"), url("../assets/fonts/Lato-Light.ttf") format("truetype");
+  font-weight: 300;
   font-style: normal;
 }
 @font-face {
-  font-family: "Lato Bold";
-  src: url("../assets/font/Lato-Bold.ttf") format("truetype");
+  font-family: "Lato-Regular";
+  src: url("../assets/fonts/Lato-Regular.eot");
+  src: local("Lato Regular"), local("Lato-Regular"), url("../assets/fonts/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Lato-Regular.woff") format("woff"), url("../assets/fonts/Lato-Regular.ttf") format("truetype");
+  font-weight: normal;
   font-style: normal;
 }
-.pic-head-discr__discr, .pic-head-position__head, .expert_info p, .copyright, .form_contact_address, .form_contacts_info, .form_contacts_header, .header_text, .about_title p, .portfolio_categories button, .services__description, .services__header, h1 {
-  font-family: "Lato", Verdana, sans-serif;
+@font-face {
+  font-family: "Lato-Bold";
+  src: url("../assets/fonts/Lato-Bold.eot");
+  src: local("Lato Bold"), local("Lato-Bold"), url("../assets/fonts/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Lato-Bold.woff") format("woff"), url("../assets/fonts/Lato-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato-Black";
+  src: url("../assets/fonts/Lato-Black.eot");
+  src: local("Lato Black"), local("Lato-Black"), url("../assets/fonts/Lato-Black.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Lato-Black.woff") format("woff"), url("../assets/fonts/Lato-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+.pic-head-discr__discr, .pic-head-position__head, .expert_info p, .copyright, .form_contact_address, .form_contacts_info, .form_contacts_header, .about_title p, .portfolio_categories button, .services__description, .services__header, h1 {
+  font-family: "Lato-Regular", Verdana, sans-serif;
+}
+
+.header_text {
+  font-family: "Lato-Light", Verdana, sans-serif;
+}
+
+.portfolio_categories button:hover, .navigation__link, .icon:hover {
+  transition: all 0.3s ease-out;
 }
 
 .portfolio_categories button:hover, .navigation__link, .icon:hover {
@@ -541,6 +567,11 @@ h1 {
 .arrow-left:hover {
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .arrow-left {
+    left: 21px;
+  }
+}
 
 .arrow-right {
   position: absolute;
@@ -554,17 +585,34 @@ h1 {
   transform: rotate(180deg);
   transform-origin: center;
 }
+@media (max-width: 768px) {
+  .arrow-right {
+    right: 25px;
+  }
+}
 
 .slider__v_phone {
   position: relative;
   left: 111px;
   top: 55px;
 }
+@media (max-width: 768px) {
+  .slider__v_phone {
+    width: 180.85px;
+    height: 363.74px;
+  }
+}
 
 .slider__h_phone {
   position: relative;
   left: 183px;
   top: -65px;
+}
+@media (max-width: 768px) {
+  .slider__h_phone {
+    height: 180.93px;
+    width: 364.21px;
+  }
 }
 
 .services {
@@ -720,7 +768,7 @@ h1 {
 }
 
 .about_container {
-  padding: 0 40px 210px 40px;
+  padding: 0 40px 59px 40px;
 }
 
 .about_title {
@@ -764,7 +812,6 @@ h1 {
   font-weight: 300;
   line-height: 3rem;
   padding-top: 4px;
-  width: 940px;
   color: #f0d8d9;
   text-align: left;
   letter-spacing: 0.008em;
@@ -934,27 +981,15 @@ h1 {
   text-align: left;
 }
 
-.about_expert {
+.expert_photo img {
   width: 300px;
   height: 300px;
 }
-
-.man_img {
-  height: 300px;
-  width: 300px;
-  background-image: url("../assets/singolo_2/images/man.png");
-}
-
-.women_1_img {
-  height: 300px;
-  width: 300px;
-  background-image: url("../assets/singolo_2/images/women.png");
-}
-
-.women_2_img {
-  height: 300px;
-  width: 300px;
-  background-image: url("../assets/singolo_2/images/women_2.png");
+@media (max-width: 768px) {
+  .expert_photo img {
+    width: 218.94px;
+    height: 218.94px;
+  }
 }
 
 .expert_info {
@@ -1087,10 +1122,7 @@ h1 {
   flex-flow: row nowrap;
   justify-content: space-between;
   flex-flow: row nowrap;
-  padding-left: 39px;
-  padding-top: 0;
-  padding-bottom: 21px;
-  padding-right: 40px;
+  padding: 0 40px 21px 39px;
 }
 
 .bottom {

@@ -3,7 +3,7 @@ html {
 }
 
 h1 {
-  @extend %font-prim-normal;
+  @extend %font-prim-regular;
   @include font($height: 3rem, $size: 2.5rem);
 }
 

@@ -13,6 +13,9 @@
   &:hover {
     cursor: pointer;
   }
+  @include media-tablet {
+    left: 21px;
+  }
 }
 
 .arrow-right {
@@ -28,17 +31,29 @@
     transform: rotate(180deg);
     transform-origin: center;
   }
+  @include media-tablet {
+    right: 25px;
+  }
+
 }
 
 .slider__v_phone {
   position: relative;
   left: 111px;
   top: 55px;
+  @include media-tablet {
+    width: 180.85px;
+    height: 363.74px;
+  }
 }
 
 .slider__h_phone {
   position: relative;
   left: 183px;
   top: -65px;
+  @include media-tablet {
+    height: 180.93px;
+    width: 364.21px;
+  }
 }
 

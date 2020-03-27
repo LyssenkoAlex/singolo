@@ -22,7 +22,7 @@
   padding-left: 29px;
   font-weight: 400;
   button {
-    @extend %font-prim-normal;
+    @extend %font-prim-regular;
     @include font($height: 2.2rem, $size: 1.2rem, $weight:400);
     margin-left: 6px;
     padding: 3px 7px 3px 6px;

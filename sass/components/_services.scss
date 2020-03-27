@@ -7,14 +7,14 @@
 }
 
 .services__header {
-  @extend %font-prim-normal;
+  @extend %font-prim-regular;
   @include font($height: 1.8rem, $size: 3rem, $weight:900);
   color: #666d89;
   text-align: left;
 }
 
 .services__description {
-  @extend %font-prim-normal;
+  @extend %font-prim-regular;
   @include font($height: 3rem, $size: 1.8rem, $weight:300);
   margin-top: 27px;
   letter-spacing: -0.08px;
