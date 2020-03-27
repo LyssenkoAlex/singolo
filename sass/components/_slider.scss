@@ -45,6 +45,13 @@
     width: 180.85px;
     height: 363.74px;
   }
+
+  @include media-mobilesmall {
+    width: 88.3px;
+    height: 177.61px;
+    left: 36px;
+  }
+
 }
 
 .slider__h_phone {
@@ -55,5 +62,17 @@
     height: 180.93px;
     width: 364.21px;
   }
+
+  @include media-mobilesmall {
+    height: 180.93px;
+    width: 364.21px;
+  }
+
+  @include media-mobilesmall {
+    height: 88.35px;
+    width: 177.84px;
+    left: 61px;
+  }
+
 }
 

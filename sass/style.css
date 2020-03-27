@@ -446,7 +446,7 @@ ul {
   font-weight: 900;
   font-style: normal;
 }
-.pic-head-discr__discr, .pic-head-position__head, .expert_info p, .copyright, .form_contact_address, .form_contacts_info, .form_contacts_header, .portfolio_categories button, .services__description, .services__header {
+.pic-head-discr__discr, .pic-head-position__head, .expert_info p, .copyright, #name, #email, #subject, #textarea, .form_contact_address, .form_contacts_info, .form_contacts_header, .portfolio_categories button, .services__description, .services__header {
   font-family: "Lato-Regular", Verdana, sans-serif;
 }
 
@@ -607,6 +607,13 @@ h1 {
     height: 363.74px;
   }
 }
+@media (max-width: 375px) {
+  .slider__v_phone {
+    width: 88.3px;
+    height: 177.61px;
+    left: 36px;
+  }
+}
 
 .slider__h_phone {
   position: relative;
@@ -617,6 +624,19 @@ h1 {
   .slider__h_phone {
     height: 180.93px;
     width: 364.21px;
+  }
+}
+@media (max-width: 375px) {
+  .slider__h_phone {
+    height: 180.93px;
+    width: 364.21px;
+  }
+}
+@media (max-width: 375px) {
+  .slider__h_phone {
+    height: 88.35px;
+    width: 177.84px;
+    left: 61px;
   }
 }
 
@@ -801,6 +821,10 @@ h1 {
   background-color: #F06C64;
 }
 
+input, textarea {
+  width: 100%;
+}
+
 .header {
   font-size: 3rem;
   font-style: normal;
@@ -827,6 +851,7 @@ h1 {
 
 .form_contacts {
   padding-left: 31px;
+  flex-basis: 45%;
 }
 
 .form_contacts_header {
@@ -890,22 +915,19 @@ h1 {
 }
 
 .form_fields {
-  width: 67%;
-  padding-top: 2px;
+  flex-basis: 45%;
 }
 
 #name, #email, #subject, #textarea {
   border-radius: 5px;
-  width: 619px;
   height: 39px;
-  box-sizing: border-box;
   border: none;
   background-color: #D6564F;
-  font-size: 12px;
-  line-height: 22px;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.2rem;
   color: #f48c8f;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
   text-align: left;
   padding-left: 14px;
   padding-top: 6px;
@@ -1060,7 +1082,7 @@ h1 {
 }
 @media (max-width: 375px) {
   .container-3 {
-    flex-basis: 52%;
+    flex-basis: 95%;
   }
 }
 
@@ -1132,6 +1154,11 @@ h1 {
   justify-content: space-between;
   flex-flow: row nowrap;
   padding: 0 40px 21px 39px;
+}
+@media (max-width: 375px) {
+  .form_details {
+    display: block;
+  }
 }
 
 .bottom {

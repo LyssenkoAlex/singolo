@@ -2,6 +2,9 @@
   background-color: #F06C64;
 }
 
+input, textarea {
+  width: 100%;
+}
 
 .header {
   @extend %font-prim-black;
@@ -24,6 +27,7 @@
 
 .form_contacts {
   padding-left: 31px;
+  flex-basis: 45%;
 }
 
 .form_contacts_header {
@@ -83,22 +87,17 @@
 }
 
 .form_fields {
-  width: 67%;
-  padding-top: 2px;
+  flex-basis: 45%;
 }
 
 #name, #email, #subject, #textarea {
   border-radius: 5px;
-  width: 619px;
   height: 39px;
-  box-sizing: border-box;
   border: none;
   background-color: #D6564F;
-  font-size: 12px;
-  line-height: 22px;
+  @extend %font-prim-regular;
+  @include font($height: 1.2rem, $size: 1.2rem, $weight:300);
   color: #f48c8f;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
   text-align: left;
   padding-left: 14px;
   padding-top: 6px;
