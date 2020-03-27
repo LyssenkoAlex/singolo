@@ -4,14 +4,15 @@
 
 
 .header {
-  font-size: 30px;
-  line-height: 18px;
+  @extend %font-prim-black;
+  @include font($height: 1.8rem, $size: 3rem, $weight:900);
   color: #f0d8d9;
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
   text-align: left;
 }
 
+.header_title {
+  color: $color_form_title;
+}
 .header_text {
   @extend %font-prim-light;
   @include font($height: 3rem, $size: 1.8rem, $weight:300);
@@ -76,8 +77,9 @@
 }
 
 .form_header {
-  padding-left: 40px;
+  padding-left: 42px;
   padding-top: 47px;
+  padding-right: 37px;
 }
 
 .form_fields {

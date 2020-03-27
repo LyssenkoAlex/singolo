@@ -10,14 +10,13 @@
 
 .about_title {
   padding-top: 47px;
-  font-size: 1.5em;
   color: #666d89;
   h1 {
     padding-left: 1px;
   }
 
   p {
-    @extend %font-prim-regular;
+    @extend %font-prim-black;
     @include font($height: 3rem, $size: 1.8rem, $weight:300);
     padding-top: 4px;
     text-align: justify;
