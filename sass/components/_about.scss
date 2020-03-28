@@ -4,12 +4,12 @@
 }
 
 .about_container {
-  padding: 0 40px 59px 40px;
+  padding: 33px 40px 59px;
 }
 
 
 .about_title {
-  padding-top: 47px;
+
   color: #666d89;
   h1 {
     padding-left: 1px;
@@ -18,7 +18,6 @@
   p {
     @extend %font-prim-black;
     @include font($height: 3rem, $size: 1.8rem, $weight:300);
-    padding-top: 4px;
     text-align: justify;
   }
 

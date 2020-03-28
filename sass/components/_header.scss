@@ -7,6 +7,9 @@
   text-transform: uppercase;
   color: #ffffff;
   letter-spacing: -0.03em;
+  @extend %font-prim-bold;
+  @include font($height: 3.0rem, $size: 2.5rem, $weight:300);
+  padding-top: 4px;
   @include media-mobilesmall {
     flex-basis: 80%;
   }

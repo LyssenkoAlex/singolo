@@ -4,16 +4,18 @@
 
 .portfolio_header {
   color: #767e9e;
-  padding-top: 47px;
+  padding-top: 43px;
+  padding-left: 40px;
+
   h2 {
     padding-left: 41px;
     font-size: 2.3em;
   }
 
   p {
-    padding-top: 10px;
-    padding-left: 42px;
-    font-size: 1.34em;
+    padding-top: 1px;
+    padding-left: 1px;
+    font-size: 1.6em;
   }
 }
 
@@ -23,9 +25,9 @@
   font-weight: 400;
   button {
     @extend %font-prim-regular;
-    @include font($height: 2.2rem, $size: 1.2rem, $weight:400);
+    @include font($height: 2.0rem, $size: 1.1rem, $weight:400);
     margin-left: 6px;
-    padding: 3px 7px 3px 6px;
+    padding: 0 8px 0 8px;
     border: 1px solid #767e9e;
     color: #767e9e;
     border-radius: 5px;
@@ -45,7 +47,7 @@
 }
 
 .portfolio_images {
-  padding: 10px 38px 32px 39px;
+  padding: 10px 38px 62px 39px;
 }
 
 .images {

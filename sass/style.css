@@ -449,6 +449,10 @@ ul {
   font-family: "Lato-Regular", Verdana, sans-serif;
 }
 
+.logo_title {
+  font-family: "Lato-Bold", Verdana, sans-serif;
+}
+
 .header, .about_title p, h1 {
   font-family: "Lato-Black", Verdana, sans-serif;
 }
@@ -553,6 +557,11 @@ h1 {
   text-transform: uppercase;
   color: #ffffff;
   letter-spacing: -0.03em;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 3rem;
+  padding-top: 4px;
 }
 @media (max-width: 375px) {
   .logo_title {
@@ -583,6 +592,7 @@ nav {
   font-weight: 700;
   line-height: 1rem;
   text-transform: uppercase;
+  margin-right: -1px;
 }
 nav ul {
   margin: 0;
@@ -667,7 +677,7 @@ nav a:hover {
 .arrow-left {
   position: absolute;
   top: 378px;
-  left: 459px;
+  left: 482px;
 }
 .arrow-left:hover {
   cursor: pointer;
@@ -681,7 +691,7 @@ nav a:hover {
 .arrow-right {
   position: absolute;
   top: 378px;
-  right: 462px;
+  right: 480px;
 }
 .arrow-right:hover {
   cursor: pointer;
@@ -743,7 +753,7 @@ nav a:hover {
 .services {
   padding-left: 41px;
   padding-right: 40px;
-  padding-top: 95px;
+  padding-top: 69px;
   background-color: #f2f2f2;
   border-bottom: 6px solid #ffffff;
 }
@@ -770,7 +780,8 @@ nav a:hover {
 }
 
 .services__container {
-  padding-top: 45px;
+  padding-top: 41px;
+  padding-bottom: 23px;
 }
 
 .portfolio {
@@ -779,16 +790,17 @@ nav a:hover {
 
 .portfolio_header {
   color: #767e9e;
-  padding-top: 47px;
+  padding-top: 43px;
+  padding-left: 40px;
 }
 .portfolio_header h2 {
   padding-left: 41px;
   font-size: 2.3em;
 }
 .portfolio_header p {
-  padding-top: 10px;
-  padding-left: 42px;
-  font-size: 1.34em;
+  padding-top: 1px;
+  padding-left: 1px;
+  font-size: 1.6em;
 }
 
 .portfolio_categories {
@@ -797,12 +809,12 @@ nav a:hover {
   font-weight: 400;
 }
 .portfolio_categories button {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 2.2rem;
+  line-height: 2rem;
   margin-left: 6px;
-  padding: 3px 7px 3px 6px;
+  padding: 0 8px 0 8px;
   border: 1px solid #767e9e;
   color: #767e9e;
   border-radius: 5px;
@@ -820,7 +832,7 @@ nav a:hover {
 }
 
 .portfolio_images {
-  padding: 10px 38px 32px 39px;
+  padding: 10px 38px 62px 39px;
 }
 
 .images:hover {
@@ -840,11 +852,10 @@ nav a:hover {
 }
 
 .about_container {
-  padding: 0 40px 59px 40px;
+  padding: 33px 40px 59px;
 }
 
 .about_title {
-  padding-top: 47px;
   color: #666d89;
 }
 .about_title h1 {
@@ -855,7 +866,6 @@ nav a:hover {
   font-style: normal;
   font-weight: 300;
   line-height: 3rem;
-  padding-top: 4px;
   text-align: justify;
 }
 
@@ -897,7 +907,7 @@ input, textarea {
 }
 
 .form_contacts {
-  padding-left: 31px;
+  padding-left: 26px;
   flex-basis: 45%;
 }
 
@@ -929,7 +939,6 @@ input, textarea {
   line-height: 2.2rem;
   color: #f0d8d9;
   text-align: justify;
-  padding-top: 20px;
   padding-left: 17px;
 }
 
@@ -962,7 +971,7 @@ input, textarea {
 }
 
 .form_fields {
-  flex-basis: 45%;
+  flex-basis: 88%;
 }
 
 #name, #email, #subject, #textarea {
@@ -1110,7 +1119,7 @@ input, textarea {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 54px 13px 42px;
+  padding: 10px 54px 13px 42px;
 }
 
 .container-3x2 {
@@ -1208,7 +1217,6 @@ input, textarea {
   grid-column-gap: 18px;
   justify-items: center;
   color: #666d89;
-  padding-top: 26px;
 }
 @media (max-width: 375px) {
   .expert {
@@ -1221,7 +1229,7 @@ input, textarea {
   flex-flow: row nowrap;
   justify-content: space-between;
   flex-flow: row nowrap;
-  padding: 0 40px 21px 39px;
+  padding: 0 40px 6px 39px;
 }
 @media (max-width: 375px) {
   .form_details {
@@ -1233,8 +1241,8 @@ input, textarea {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  height: 76px;
   background-color: #2D303A;
+  padding-bottom: 20px;
 }
 
 .bottom_icons {

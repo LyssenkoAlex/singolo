@@ -4,6 +4,7 @@ nav {
   @extend %font-prim-regular;
   @include font($height: 1rem, $size: 1.2rem, $weight:700);
   text-transform: uppercase;
+  margin-right: -1px;
 
   ul {
     margin: 0;

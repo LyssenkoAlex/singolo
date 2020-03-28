@@ -4,7 +4,6 @@
   grid-column-gap: 18px;
   justify-items: center;
   color: #666d89;
-  padding-top: 26px;
   @include media-mobilesmall {
     grid-template-columns: 1fr;
   }
