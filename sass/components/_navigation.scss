@@ -3,6 +3,7 @@ nav {
   white-space: nowrap;
   @extend %font-prim-regular;
   @include font($height: 1rem, $size: 1.2rem, $weight:700);
+  text-transform: uppercase;
 
   ul {
     margin: 0;
@@ -16,14 +17,18 @@ nav {
     font-size: 12px;
     text-decoration: none;
     color: $color_clicked;
+
   }
+
+
+
   li:not(:first-child) a {
-    margin-left: 0.1em;
+    margin-left: 2em;
   }
   li:not(:first-child) a:before {
     content: ".";
     position: absolute;
-    top: 0;
+    top: -2px;
     left: -1.35em;
     color: white;
     border-radius: 50%;
@@ -34,6 +39,9 @@ nav {
   }
   a.current {
     cursor: default;
+  }
+  a:hover {
+    color: $color_clicked;
   }
 
   @include media-mobilesmall {

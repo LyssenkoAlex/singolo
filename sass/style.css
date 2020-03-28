@@ -582,6 +582,7 @@ nav {
   font-style: normal;
   font-weight: 700;
   line-height: 1rem;
+  text-transform: uppercase;
 }
 nav ul {
   margin: 0;
@@ -597,12 +598,12 @@ nav a {
   color: #F06C64;
 }
 nav li:not(:first-child) a {
-  margin-left: 0.1em;
+  margin-left: 2em;
 }
 nav li:not(:first-child) a:before {
   content: ".";
   position: absolute;
-  top: 0;
+  top: -2px;
   left: -1.35em;
   color: white;
   border-radius: 50%;
@@ -613,6 +614,9 @@ nav a:not(.current) {
 }
 nav a.current {
   cursor: default;
+}
+nav a:hover {
+  color: #F06C64;
 }
 @media (max-width: 375px) {
   nav {
