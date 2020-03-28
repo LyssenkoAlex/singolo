@@ -44,69 +44,18 @@
   }
 }
 
-
 .portfolio_images {
   padding: 10px 38px 32px 39px;
 }
 
 .images {
-  height: 187px;
-  width: 220px;
-}
-.images:hover {
-  transition-duration: 1s;
-  opacity: 0.6;
-  cursor: pointer;
+  &:hover {
+    transition-duration: 1s;
+    opacity: 0.6;
+    cursor: pointer;
+  }
 }
 
-.ship {
-  background-image: url('../assets/singolo_2/images/ship.png');
-}
-
-
-.green_face {
-  background-image: url('../assets/singolo_2/images/green_face.png');
-}
-
-.night {
-  background-image: url('../assets/singolo_2/images/night.png');
-}
-
-.robot {
-  background-image: url('../assets/singolo_2/images/robot.png');
-}
-
-.rabbits {
-  background-image: url('../assets/singolo_2/images/rabbits.png');
-}
-
-.sdk {
-  background-image: url('../assets/singolo_2/images/sdk.png');
-}
-
-.rocket {
-  background-image: url('../assets/singolo_2/images/rocket.png');
-}
-
-.birds {
-  background-image: url('../assets/singolo_2/images/birds.png');
-}
-
-.sleep {
-  background-image: url('../assets/singolo_2/images/sleep.png');
-}
-
-.letters {
-  background-image: url('../assets/singolo_2/images/letters.png');
-}
-
-.monster {
-  background-image: url('../assets/singolo_2/images/moster.png');
-}
-
-.sqr {
-  background-image: url('../assets/singolo_2/images/sqr.png');
-}
 
 .portfolio_end {
   background-color: #323746;

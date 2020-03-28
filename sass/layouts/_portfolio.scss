@@ -10,4 +10,17 @@
   @include media-mobilesmall {
     grid-template-columns: repeat(2, 2fr);
   }
+  img {
+    height: 187px;
+    width: 220px;
+
+    @include media-tablet {
+      width: 216.19px;
+      height: 183.76px;
+    }
+    @include media-mobilesmall {
+      width: 151px;
+      height: 128px;
+    }
+  }
 }
