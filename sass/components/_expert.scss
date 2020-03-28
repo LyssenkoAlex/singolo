@@ -14,6 +14,13 @@
       height: 218.94px;
     }
   }
+
+  @include media-mobilesmall {
+    img {
+      width: 314px;
+      height: 314px;
+    }
+  }
 }
 
 

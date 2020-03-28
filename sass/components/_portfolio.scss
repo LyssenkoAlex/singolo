@@ -13,9 +13,10 @@
   }
 
   p {
+    font-family: 'Lato-Light', Verdana, sans-serif;
     padding-top: 1px;
     padding-left: 1px;
-    font-size: 1.6em;
+    font-size: 1.8em;
   }
 }
 
@@ -48,6 +49,13 @@
 
 .portfolio_images {
   padding: 10px 38px 62px 39px;
+  @include media-tablet {
+    padding: 10px 38px 95px 39px
+  }
+  @include media-mobilesmall {
+    padding-right: 22px;
+    padding-left: 22px;
+  }
 }
 
 .images {

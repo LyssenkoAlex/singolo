@@ -1,8 +1,12 @@
 .page-header {
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 54px 13px 42px;
+  max-width: 1020px;
+  width: 100%;
+  z-index: 90;
 }
 
 
