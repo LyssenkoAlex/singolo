@@ -6,10 +6,22 @@
 .logo_title {
   text-transform: uppercase;
   color: #ffffff;
-  letter-spacing: -0.03em
+  letter-spacing: -0.03em;
+  @include media-mobilesmall {
+    flex-basis: 80%;
+  }
 }
 
 .logo__star {
   color: #f06c64;
+}
+
+.header_hamburger {
+  margin-right: 37px;
+  @include media-mobilesmall {
+    left: 0;
+    flex-basis: 15%;
+    z-index: 20;
+  }
 }
 

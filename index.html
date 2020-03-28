@@ -7,16 +7,19 @@
     <title>Singolo</title>
 </head>
 <body>
-<div class="wrapper">
+<section class="wrapper">
     <header class="page-header">
+        <span class="header_hamburger hamburger" id="idHamburger"><span class="hamburger__line"></span></span>
         <h1 class="logo_title">singolo<span class="logo__star">*</span></h1>
-        <div class="navigation">
-            <div class="navigation__link">Home</div>
-            <div class="navigation__link">Services</div>
-            <div class="navigation__link">Portfolio</div>
-            <div class="navigation__link">About</div>
-            <div class="navigation__link">Contact</div>
-        </div>
+        <nav>
+            <ul>
+                <li><a class="current" href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <div class="slider">
         <div class="arrow-left arrow-interactive">
@@ -84,7 +87,7 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <section class="wrapper">
     <div class="portfolio">
@@ -274,6 +277,6 @@
         </div>
     </footer>
 </section>
-
+<script src="./script.js"></script>
 </body>
 </html>
