@@ -16,7 +16,7 @@
   }
 
   p {
-    @extend %font-prim-black;
+    @extend %font-prim-regular;
     @include font($height: 3rem, $size: 1.8rem, $weight:300);
     text-align: justify;
   }
